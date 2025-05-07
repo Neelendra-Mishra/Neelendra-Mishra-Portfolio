@@ -1,0 +1,431 @@
+<!--Designed and developed by Neelendra Mishra-->
+
+
+                                                                <!----------START OF THE CODE-------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Neelendra Portfolio </title>
+</head>
+
+<body>
+
+    <!--Header Section-->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-user-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hey, I'm <span>Neelendra Mishra</span></h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--About  Section-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile_pic.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="animated-text">
+                        I'm Neelendra Mishra, a software developer driven by curiosity and a passion for building
+                        reliable, user focused solutions.
+                        What started as an interest in computers quickly grew into a full on journey into the world of
+                        software development.
+                        Along the way, I’ve gained hands on experience in full-stack development, using tools like Java,
+                        Python, SQL, and modern web technologies to bring ideas to life.
+                        Technology never stands still and neither do I.<br> With every project, I aim to solve better,
+                        build cleaner, and grow stronger.
+                    </p>
+
+
+                    <div class="tab_title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Awards and Distinctions</p>
+                    </div>
+
+
+                    <!---------Skills-------->
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:</span> Java, Python, C, JavaScript, HTML, CSS</li>
+                            <li><span>Web Development:</span> Building responsive and dynamic web applications</li>
+                            <li><span>UI/UX Design:</span> Creating intuitive and user friendly interfaces</li>
+                            <li><span>Software Development:</span> Writing clean, efficient, and scalable code</li>
+                            <li><span>Database Management:</span> Working with SQL for data modeling and Querying</li>
+                            <li><span>Version Control:</span> Proficient in Git and GitHub for collaboration</li>
+                            <li><span>Problem Solving:</span> Strong analytical and debugging skills</li>
+                            <li><span>Soft Skills:</span> Effective communication, teamwork, and adaptability</li>
+                        </ul>
+                    </div>
+
+
+                    <!---------Education------->
+
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>Bachelor of Computer Science (Co-op), 2022 - 2026 (Expected)</span><br>
+                                Concordia University, Montreal, QC, Canada</li>
+                            <ul>
+                                <li>
+                                    <span>Relevant Courses:</span><br>
+                                    <ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px;">
+                                        <li>Object-Oriented Programming (Java) &nbsp; Web Development (HTML, CSS,
+                                            JavaScript)</li>
+                                        <li>SQL,&nbsp; Data Structures and Algorithms, &nbsp;Software Engineering</li>
+                                        <li>Operating Systems,&nbsp; System Hardware</li>
+                                        <li>Probability and Statistics, &nbsp; Technical Writing and Communication</li>
+                                        <li>Foundational concepts in Machine Learning and Artificial Intelligence</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <li><span>Senior School Certificate Examination, 2021</span><br>
+                                Vishwa Bharati Public School, Noida, India</li>
+                            <ul>
+                                <li><span>Relevant Courses:</span><br> Mathematics, Physics, Chemistry</li>
+                            </ul>
+                        </ul>
+                    </div>
+
+
+                    <!--------Awards and Distinctions--------->
+
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <ul>
+                                <li><span>Silico Battles</span><br>
+                                    Ahlcon Public School, Delhi Secured <strong>2nd Prize</strong> in Web Designing.
+                                </li>
+
+                                <li><span>Technolympics</span><br>
+                                    Cambridge School, Noida Achieved <strong>3rd Prize</strong> in Web Designing.</li>
+
+                                <li><span>School Military Marching Band</span><br>
+                                    National Bal Bhavan, New Delhi Represented at <strong>National-level
+                                        competitions</strong>.</li>
+
+                                <li><span>Polling Clerk for Concordia Student Union (CSU) Elections</span><br>
+                                    Assisted in conducting fair and transparent <strong>Student Elections</strong> by
+                                    ensuring compliance with voting regulations and overseeing election procedures.</li>
+
+                                <li><span>Mentor At DawsHacks 2024</span><br>
+                                    Mentored participants at a <strong>10-Hour Hackathon</strong> by providing technical
+                                    guidance, code debugging support, and strategic feedback to help teams build
+                                    scalable, real world solutions in a fast-paced collaborative environment.</li>
+                            </ul>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------sKills------------->
+
+    <div id="services" class="scroll-up">
+        <div class="container">
+
+            <h1 class="sub-title" style="text-align: center;">Skills</h1>
+
+            <div class="services-list">
+                <div class="scroll-up">
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Object-Oriented Programming (Java)</h2>
+                    <p>Proficient in Java, with experience in object-oriented programming, data structures, and
+                        algorithms</p>
+                </div>
+                <div class="scroll-up">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Development</h2>
+                    <p>Explored web protocols, full stack development with HTML, CSS, JavaScript and Node.js, with
+                        regular expressions, dynamic page generation, and deployment strategies.</p>
+                </div>
+                <div class="scroll-up">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Probability & Statistics</h2>
+                    <p>Applied probability and statistics, including combinatorics and hypothesis testing, in computer
+                        science contexts.</p>
+                </div>
+                <div class="scroll-up">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Principles of Programming Languages</h2>
+                    <p>Explored procedural, functional, and concurrent programming paradigms through C, Python, Clojure,
+                        and Erlang</p>
+                </div>
+                <div class="scroll-up">
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Structures and Data Bases</h2>
+                    <p>Implemented linked lists, trees, graphs, and sorting algorithms. Worked with relational databases
+                        using SQL for querying, data modeling, and normalization.</p>
+                </div>
+                <div class="scroll-up">
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>Artificial Intelligence</h2>
+                    <p>Explored AI concepts, search algorithms, and problem solving techniques.</p>
+                </div>
+                <div class="scroll-up">
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Worked with ML models, regression, classification, and neural networks.</p>
+                </div>
+                <div class="scroll-up">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Tech Writing & Communication</h2>
+                    <p>Mastered documentation, reports, and effective technical communication.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-----------Project-------------->
+
+    <div id="Project" class="scroll-up">
+        <div class="container">
+            <h1 class="sub-title" style="text-align: center;">Projects</h1>
+
+            <div class="work-list">
+                <div class="work scroll-up">
+                    <img src="images/finalcat.jpg">
+                    <div class="layer">
+                        <h3>The Meow - Sic Vet</h3>
+                        <p>Responsive pet adoption portal.
+                        </p>
+                        <a href="https://github.com/Neelendra-Mishra/The-Meow-Sic-Vet"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work scroll-up">
+                    <img src="images/dental.png">
+                    <div class="layer">
+                        <h3>SMDCMS</h3>
+                        <p>Java-based dental clinic system for patient records, staff management, and billing
+                            automation.</p>
+                        <a
+                            href="https://github.com/Neelendra-Mishra/Simple-Mobile-Dental-Clinic-Management-System-SMDCMS-"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work scroll-up">
+                    <img src="images/degree.png">
+                    <div class="layer">
+                        <h3>Track - Smart</h3>
+                        <p>C-based student grade management system with sorting, updates, file storage, and visual
+                            analytics.
+                        </p>
+                        <a href="https://github.com/Neelendra-Mishra/Track-Smart"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work scroll-up">
+                    <img src="images/game.png">
+                    <div class="layer">
+                        <h3>Match & Catch</h3>
+                        <p>Interactive Python memory game with matching logic, scoring system, and adjustable
+                            difficulty.
+                        </p>
+                        <a href="https://github.com/Neelendra-Mishra/Match-Catch"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work scroll-up">
+                    <img src="images/amazon.png">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>Developed a replica of Amazon's e-commerce site with UI components and basic cart
+                            functionality.</p>
+                        <a href="https://github.com/Neelendra-Mishra/Amazon-Clone"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Neelendra-Mishra?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!---------Contact section------------>
+
+    <div id="contact" class="scroll-up">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left scroll-up">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>neelendramishra1208@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+1 (581) 688-3435</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100005318357510"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/neelendra_mish.ra?igsh=Y3I5ZXE4ZG02eWY0"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/neelendra-mishra-031045229/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Neelendra-Mishra"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/NEELENDRA__RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right scroll-up">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Neelendra Mishra — All rights reserved.</p>
+
+        </div>
+    </div>
+
+
+                                                    <!--------- Script for handling interactivity and dynamic behavior --------->
+
+
+    <!-- Script to handle tab navigation: adds/removes active classes on tab click -->
+                <script>
+                    var tablinks = document.getElementsByClassName("tab-links");
+                    var tabcontents = document.getElementsByClassName("tab-content");
+                    function opentab(tabname) {
+                        for (tablink of tablinks) {
+                            tablink.classList.remove("active-link");
+                        }
+                        for (tabcontent of tabcontents) {
+                            tabcontent.classList.remove("active-tab");
+                        }
+                        event.currentTarget.classList.add("active-link");
+                        document.getElementById(tabname).classList.add("active-tab");
+                    }
+                </script>
+
+
+    <!------- JavaScript for mobile navigation menu: toggles sidebar open/close ----->
+                    <script>
+                        var sidemenu = document.getElementById("sidemenu");
+
+                        function openmenu() {
+                            sidemenu.style.right = "0";
+                        }
+                        function closemenu() {
+                            sidemenu.style.right = "-200px";
+                        }
+
+                    </script>
+
+
+
+     <!--------- JavaScript to handle form submission using Google Apps Script: sends data to Google Sheets and shows success message -------->
+
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwtUO2C-SVhN4wJbYVa9dkFuxFSK7_Jbc849X9IyFc34mlnSz5Xih7DZ6sKCZrQYt9W/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => {
+                            msg.innerHTML = "Message Sent successfully!"
+                            setTimeout(function () {
+                                msg.innerHTML = ""
+                            }, 3000)
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                })
+            </script>
+
+
+
+     <!----- JavaScript to trigger scroll animation for the About section when it enters the viewport ------>
+                <script>
+                    window.addEventListener("scroll", () => {
+                        const aboutSection = document.getElementById("about");
+                        const windowHeight = window.innerHeight;
+                        const sectionTop = aboutSection.getBoundingClientRect().top;
+                        if (sectionTop < windowHeight - 100) {
+                            aboutSection.classList.add("animate-up");
+                        }
+                    });
+                </script>
+
+
+
+    <!-------- JavaScript to animate elements with 'scroll-up' class as they enter the viewport on scroll ------>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const scrollElements = document.querySelectorAll(".scroll-up");
+
+            const elementInView = (el, offset = 100) => {
+                const elementTop = el.getBoundingClientRect().top;
+                return elementTop <= (window.innerHeight || document.documentElement.clientHeight) - offset;
+            };
+
+            const displayScrollElement = (element) => {
+                element.classList.add("show");
+            };
+
+            const hideScrollElement = (element) => {
+                element.classList.remove("show");
+            };
+
+            const handleScrollAnimation = () => {
+                scrollElements.forEach((el) => {
+                    if (elementInView(el)) {
+                        displayScrollElement(el);
+                    } else {
+                        hideScrollElement(el);
+                    }
+                });
+            };
+
+            window.addEventListener("scroll", handleScrollAnimation);
+            handleScrollAnimation();
+        });
+
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+                                                                    <!--END OF THE CODE-->
